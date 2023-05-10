@@ -1,11 +1,14 @@
 const final=document.querySelector(".input")
 const class2=document.querySelector(".class2")
 const class0=document.querySelector(".class0")
+const velocity=document.querySelector(".Velocity")
+
+
 
 
 
 function fun(){
-
+    var v=velocity.value
 var max_flow=final.value;
 console.log(max_flow)
 if(max_flow=="")
@@ -13,7 +16,7 @@ class2.textContent="Please enter value";
 else{
 var q=max_flow/86.4
 
-var a=q/0.8
+var a=q/v
 
 var gv=a*0.866025404
 
@@ -46,7 +49,7 @@ var ss=aws*ds
 
 console.log(ss)
 class0.textContent="Final result is: "
-class2.textContent=`${ss} m`;
+class2.textContent=`${aws} * ${ds} m`;
 }
 
 }
