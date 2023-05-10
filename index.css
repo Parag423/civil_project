@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: 2rem;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    gap:1rem;
+    background-image: linear-gradient(to right, rgb(12, 12, 14), blue, #fff);
+}
+
+.input{
+    text-align: center;
+}
+
+.final-main{
+    display: flex;
+}
+
+.class2{
+    color:brown;
+}
+
+.assume{
+    font-size: 1.3rem;
+}
